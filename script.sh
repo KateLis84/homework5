@@ -1,10 +1,10 @@
-cd /var
+cd /home
 sudo mkdir folder1
 sudo mkdir folder2
 sudo mkdir script 
 
 cd /script  
-cp /vagrant/mydaemon.sh /var/script/script.sh
+cp /vagrant/mydaemon.sh /home/script/script.sh
 sudo chmod +x /tmp/script/script.sh
 
 
