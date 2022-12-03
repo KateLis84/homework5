@@ -4,7 +4,7 @@ After=network.target
 
 [Service] 
 User=root 
-ExecStart=/bin/bash /tmp/script/script.sh 
+ExecStart=/bin/bash /var/script/script.sh 
 RestartSec=5s 
 Restart=on-failure 
 
